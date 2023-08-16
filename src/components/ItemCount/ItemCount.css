@@ -1,0 +1,38 @@
+.item-count-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.item-count-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.item-count-button:disabled {
+    background-color: #95a5a6;
+    cursor: not-allowed;
+}
+
+.count-text {
+    margin: 0 1rem;
+    font-size: 1.5rem;
+}
+
+.add-to-cart-button {
+    background-color: #27ae60;
+}
+
+.add-to-cart-button h4 {
+    margin: 0;
+    color: white;
+    font-size: 1rem;
+}

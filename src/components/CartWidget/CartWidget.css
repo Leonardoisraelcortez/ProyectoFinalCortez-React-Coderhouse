@@ -1,0 +1,10 @@
+.cart-icon {
+    font-size: 24px;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.cart-icon:hover {
+    transform: scale(1.4) rotate(20deg);
+    color: BlueViolet;
+}
+
