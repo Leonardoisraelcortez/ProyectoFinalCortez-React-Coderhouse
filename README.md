@@ -24,11 +24,11 @@ Este proyecto es un ecommerce desarrollado en React que se centra en la venta de
 
 2.Navega al directorio raíz del proyecto y ejecuta el siguiente comando para instalar las dependencias:
 
-npm install
+    npm install
 
 3.Una vez completada la instalación, ejecuta el siguiente comando para iniciar la aplicación:
 
-npm start
+    npm start
 
 ¡Disfruta explorando nuestra plataforma de cursos, libros y bonsáis!
 
