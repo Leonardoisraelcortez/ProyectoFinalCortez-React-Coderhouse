@@ -23,7 +23,7 @@ function CartContainer() {
         </div>
         ))}
         {cart.length === 0 ? (
-                <p>El carrito está vacío</p>
+                <p className="stockError">El carrito está vacío</p>
             ) : (
                 <div>
                     <div className="total">Total de la compra: ${getTotalPriceInCart()}</div>

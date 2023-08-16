@@ -24,7 +24,7 @@ function ItemDetail({ product, isAddedToCart, itemInCart, onAddToCart }) {
                         <ItemCount stock={maxItems} onConfirm={onAddToCart} />
                     )
                 ) : (
-                    <p>No hay stock disponible</p>
+                    <p className="stockError">No hay stock disponible</p>
                 )}
                 {itemInCart && (
                     <h2>Ya agregaste {itemInCart.count} unidades de este producto</h2>

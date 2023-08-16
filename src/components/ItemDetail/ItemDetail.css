@@ -54,7 +54,7 @@
     cursor: pointer;
 }
 
-p {
+.stockError {
     font-size: 18px;
     color: #dc3545;
 }

@@ -1,0 +1,29 @@
+.footer{
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    min-height: 70px;
+}
+.footerText{
+    color: white;
+}
+    
+
+.footerRedes{
+    display: flex;
+    justify-content: space-around;
+    min-width: 30vw;
+}
+
+.footerI{
+    font-size: 3rem;
+}
+.footerI:hover{
+    transform: scale(200%);
+    transition: 0.5s;
+    color: BlueViolet;
+    text-shadow: 0 0 5px BlueViolet;
+}
